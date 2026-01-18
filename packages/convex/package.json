@@ -1,0 +1,19 @@
+{
+  "name": "@vibe/convex",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./_generated/api.js",
+  "types": "./_generated/api.d.ts",
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@convex-dev/auth": "^0.0.90",
+    "convex": "^1.27.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.0"
+  }
+}
