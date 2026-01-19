@@ -110,23 +110,34 @@ import * as SecureStore from "expo-secure-store"
 
 ### Environment Variables
 
-**Web (apps/web/.env.local):**
+This project uses a consistent env file pattern across all environments:
 
-```
-NEXT_PUBLIC_CONVEX_URL=https://your-convex-url.convex.cloud
-```
+| File Pattern | Purpose |
+|--------------|---------|
+| `.env.development` | Development environment vars |
+| `.env.production` | Production environment vars |
+| `.env.convex.development` | Convex dev deployment vars (local reference) |
+| `.env.convex.production` | Convex prod deployment vars (local reference) |
+| `.env.convex-cli.development` | Convex CLI deploy key for dev |
+| `.env.convex-cli.production` | Convex CLI deploy key for prod |
 
-**Native (apps/native/.env):**
+**Next.js (apps/web):**
+- Uses `.env.development` and `.env.development.local` for local dev
+- Pull from Vercel: `pnpm env:pull:vercel`
 
-```
-EXPO_PUBLIC_CONVEX_URL=https://your-convex-url.convex.cloud
-```
+**Expo (apps/native):**
+- Uses `.env.development` for local dev (`expo start`)
+- EAS builds need env vars in `eas.json` or EAS Secrets
+- See `apps/native/.env.example` for details
 
-**Convex (packages/convex/.env.local):**
+**Convex:**
+- Pull: `pnpm env:pull:convex`
+- Push: `pnpm env:push:convex:development`
+- Verify: `pnpm env:verify:convex`
 
-```
-CONVEX_DEPLOYMENT=your-deployment-name
-```
+**Deploy Keys:**
+- Get from Convex Dashboard → Project Settings → Deploy Keys
+- See `.env.convex-cli.example`
 
 ## Development Guidelines
 

@@ -13,16 +13,24 @@ android/
 # Turbo
 .turbo/
 
-# Environment - local files (not committed)
+# Environment files (contain secrets - never commit)
+# Pattern covers: .env, .env.local, .env.development, .env.production, .env.*.local, etc.
 .env
-.env.local
-.env.production
-.env.*.local
+.env.*
+!.env.example
+!.env.convex.example
+!.env.convex-cli.example
+
+# Note: Expo uses .env.development and .env.production in apps/native/
+# Note: Next.js uses .env.development.local and .env.production.local in apps/web/
 
 # Convex env files (pulled from Convex, contain secrets)
 .env.convex.development
 .env.convex.production
 .env.convex.preview
+
+# Convex CLI deploy keys
+.env.convex-cli.development
 .env.convex-cli.production
 .env.convex-cli.preview
 
